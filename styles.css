@@ -30,21 +30,26 @@ a {
   position: fixed;
   background-color: #F16767;
   justify-content: flex-end;
-  width: 100%;
-  right: 5px;
+  width: 101.2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: -10px;
+  right:-10px;
+  left:-10px;
 }
 
 .nav-item{
-  margin: 0 5px 0;
+  margin: 5px 5px;
   font-size: 25px;
+  color:#FFE5B3;
+  margin-right: 20px;
 }
 
 .contacts{
   position: relative;
   background-color: #F16767;
   width: 101.2%;
-  background-size: cover;
+
   justify-content: center;
   margin: 30px 0 0;
   right:-10px;
@@ -102,6 +107,7 @@ a {
   background-size: auto;
   width: max-content;
   margin-top: 40px;
+  color:#FFE5B3;
 }
 
 .link:hover{

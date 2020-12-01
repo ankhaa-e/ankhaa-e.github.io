@@ -1,0 +1,174 @@
+/* GLOBAL STYLES */
+html{
+  font-family:Tahoma, Geneva, sans-serif
+}
+body{
+  background-color: #FFE5B3;
+  z-index: 1;
+}
+
+.flex-row-container{
+  display: flex;
+  justify-content:space-evenly;
+  align-content: center;
+}
+
+.flex-column-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar{
+  z-index: 100;
+  position: fixed;
+  background-color: #F16767;
+  justify-content: flex-end;
+  width: 100%;
+  right: 5px;
+  margin-top: -10px;
+}
+
+.nav-item{
+  margin: 0 5px 0;
+  font-size: 25px;
+}
+
+.contacts{
+  position: relative;
+  background-color: #F16767;
+  width: 101.2%;
+  background-size: cover;
+  justify-content: center;
+  margin: 30px 0 0;
+  right:-10px;
+  left:-10px;
+  bottom: -10px;
+}
+
+.icon{
+  width:50px;
+  height:50px;
+  display: block;
+  margin: 20px 15px;
+}
+/* HOMEPAGE STYLES */
+
+.intro{
+  height:100vh;
+}
+
+#greeting{
+  font-size: 75px;
+  text-align: center;
+}
+
+.name{
+  color:#F16767;
+}
+
+#pronunciation{
+  font-size: 50px;
+}
+
+.about-me{
+  justify-content: space-evenly;
+}
+
+.headshot{
+  max-height: 400px;
+  max-width: 300px;
+}
+
+.info{
+  font-size: 20px;
+}
+
+.links{
+    justify-content: space-evenly;
+}
+
+.link{
+  display: block;
+  text-align: center;
+  background-color:  #F16767;
+  font-size: 30px;
+  background-size: auto;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.link:hover{
+  background-color: #F88378;
+}
+
+.project-square
+{
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+
+.project-image{
+  width: 75%
+}
+.project-title{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  opacity: 1.0;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.project-square:hover .project-image{
+  opacity: .25;
+}
+
+.project-square:hover .project-title{
+  display: block;
+}
+
+/* PROJECT PAGE STYLES */
+.project-bio{
+  width:40%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.tetris-image{
+  width: 40%;
+  height: 40%;
+}
+
+.applicomb-image{
+  max-height: 80vh;
+}
+
+#drawing{
+  max-width: 70%;
+  margin-top: 20px;
+}
+
+
+#bio-pic{
+  max-height: 60vh;
+  max-width: 90%;
+}
+
+
+.bio-text{
+  text-align:  justify;
+  max-width: 520px;
+}

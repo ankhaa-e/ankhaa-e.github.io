@@ -7,13 +7,13 @@ body{
   z-index: 1;
 }
 
-.flex-row-container{
+.flex-row{
   display: flex;
   justify-content:space-evenly;
   align-content: center;
 }
 
-.flex-column-container{
+.flex-column{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +49,6 @@ a {
   position: relative;
   background-color: #F16767;
   width: 101.2%;
-
   justify-content: center;
   margin: 30px 0 0;
   right:-10px;
@@ -74,19 +73,51 @@ a {
   text-align: center;
 }
 
-.name{
+#name{
   color:#F16767;
 }
 
 #pronunciation{
   font-size: 50px;
+  color:  #677880;
+}
+
+.project-square
+{
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.project-image{
+  width: 75%
+}
+
+.project-title{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  opacity: 1.0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.project-square:hover .project-image{
+  opacity: .25;
+}
+
+.project-square:hover .project-title{
+  display: block;
 }
 
 .about-me{
   justify-content: space-evenly;
 }
 
-.headshot{
+#headshot{
   max-height: 400px;
   max-width: 300px;
 }
@@ -114,38 +145,6 @@ a {
   background-color: #F88378;
 }
 
-.project-square
-{
-  justify-content: center;
-  position: relative;
-  text-align: center;
-}
-
-
-.project-image{
-  width: 75%
-}
-.project-title{
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-  opacity: 1.0;
-
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.project-square:hover .project-image{
-  opacity: .25;
-}
-
-.project-square:hover .project-title{
-  display: block;
-}
-
 /* PROJECT PAGE STYLES */
 .project-name{
   padding-top: 40px;
@@ -156,14 +155,16 @@ a {
   width:40%;
   text-align: justify;
   font-size: 20px;
+  background-color: #F9BF97;
+  height: fit-content;
 }
 
-.tetris-image{
+#tetris-image{
   width: 40%;
   height: 40%;
 }
 
-.applicomb-image{
+#applicomb-image{
   max-height: 80vh;
 }
 
@@ -172,14 +173,15 @@ a {
   margin-top: 20px;
 }
 
+/* BIO PAGE STYLES */
 
 #bio-pic{
   max-height: 60vh;
   max-width: 90%;
 }
 
-
 .bio-text{
-  text-align:  justify;
+  text-align: justify;
   max-width: 520px;
+  background-color: #F9BF97;
 }
